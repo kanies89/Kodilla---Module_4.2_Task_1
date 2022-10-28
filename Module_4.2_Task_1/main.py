@@ -18,9 +18,9 @@ Do zadania dodaj krótką dokumentację i umieść je w zdalnym repozytorium. Li
 
 def is_palindrome(word):
     """
-    Function which checks if word is palindrome.
+    Function which checks if word is palindrome. Takes one argument(string).
 
-    :param word: checks if given string is palindrome
+    :param word: takes string argument which will be checked if is palindrome.
     :return: True / False
     """
     length = len(word) + 1
