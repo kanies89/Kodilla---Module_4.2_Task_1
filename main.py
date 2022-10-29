@@ -23,14 +23,8 @@ def is_palindrome(word):
     :param word: takes string argument which will be checked if is palindrome.
     :return: True / False
     """
-    length = len(word) + 1
-    is_word_palindrome = ''
-    for i in range(-1, -length, -1):
-        is_word_palindrome += word[i]
-    if word == is_word_palindrome:
-        return True
-    else:
-        return False
+
+    return word[::-1] == word
 
 print(is_palindrome('kajak'))
 print(is_palindrome('potop'))
